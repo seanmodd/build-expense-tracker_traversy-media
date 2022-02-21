@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import CounterContextProvider from '../context/CounterContext';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <CounterContextProvider>
+      <Component {...pageProps} />
+    </CounterContextProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
