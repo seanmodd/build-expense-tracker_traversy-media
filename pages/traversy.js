@@ -7,7 +7,6 @@ import { AddTransaction } from '/components/AddTransaction';
 
 // import { GlobalProvider } from 'src/context/GlobalState';
 
-import './App.css';
 import Link from 'next/link';
 
 function App() {

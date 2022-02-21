@@ -1,5 +1,4 @@
 import React, { useState, useContext } from 'react';
-import React from 'react';
 
 export const AddTransaction = () => {
   const [text, setText] = useState('');
