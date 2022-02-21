@@ -3,9 +3,9 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <CounterContextProvider>
-      <Component {...pageProps} />
-    </CounterContextProvider>
+    // <CounterContextProvider>
+    <Component {...pageProps} />
+    // </CounterContextProvider>
   );
 }
 
