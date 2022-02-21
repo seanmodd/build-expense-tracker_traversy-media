@@ -7,7 +7,7 @@ import CounterContextProvider from '../context/CounterContext';
 export default function Home() {
   return (
     <Layout>
-      <MyCounter />
+      {/* <MyCounter /> */}
       <Link href="/traversy">Go to Traversy Example</Link>
     </Layout>
   );
